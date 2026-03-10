@@ -1,43 +1,51 @@
-# 💧 Watermark Studio
+# Watermark Studio
 
-A Streamlit application for adding professional watermarks to PDFs and images.
+[![Streamlit App](https://img.shields.io/badge/Deployed%20App-Streamlit-40c463?logo=streamlit)](https://watermark-studio-pro.streamlit.app/)
 
-## Features
+Watermark Studio is a web application built with Python and Streamlit that allows you to easily add customized text or image watermarks to your photos. Instantly protect your digital content before sharing or publishing.
 
-- **PDF & Image Support** — Upload PDFs, PNG, JPG, JPEG, WebP, BMP, or TIFF files
-- **Text Watermarks** — Custom text with configurable font size and color
-- **Image Watermarks** — Upload any logo or image as a watermark (PNG with transparency recommended)
-- **Live Preview** — See how your watermark looks on sample pages before generating the final file
-- **Full Control** — Adjust dimensions, position, opacity, rotation, and tiling
-- **Download** — Generate and download the watermarked file in your preferred format
+## 🚀 Try It Live
 
-## Quick Start
+Access the live app here: [https://watermark-studio-pro.streamlit.app/](https://watermark-studio-pro.streamlit.app/)
 
-### Local Development
+## ✨ Features
+
+- **Add Watermark:** Apply either a text or image watermark to your images.
+- **Preview:** View a live preview of your watermarked image before downloading.
+- **Customize:** 
+  - Position and scale watermark
+  - Change font, size, color, and opacity for text watermarks
+  - Adjust transparency for image watermarks
+- **Download:** Download the watermarked image with a single click.
+- **Simple and Intuitive UI:** Built using Streamlit for ease of use and speed.
+
+
+## 🔧 Installation
+
+If you want to run this app locally, follow these steps:
 
 ```bash
-# Install dependencies
+git clone https://github.com/DakshRathi/Watermark-Studio.git
+cd Watermark-Studio
 pip install -r requirements.txt
-
-# Run the app
 streamlit run app.py
 ```
 
-### Deploy to Streamlit Cloud
+## 🐍 Tech Stack
 
-1. Push this repository to GitHub
-2. Go to [share.streamlit.io](https://share.streamlit.io)
-3. Connect your GitHub repo
-4. Set the main file path to `app.py`
-5. Click **Deploy**
+- **Python**
+- **Streamlit**
 
-## Dependencies
 
-- `streamlit` — Web UI framework
-- `Pillow` — Image processing
-- `PyMuPDF` — PDF reading and writing
-- `reportlab` — PDF overlay generation
+## 🤝 Contributing
 
-## License
+Contributions are welcome! Feel free to submit issues or pull requests to help improve Watermark Studio.
 
-MIT
+## 📄 License
+
+This project is licensed under the MIT License.
+
+---
+
+Developed by [DakshRathi](https://github.com/DakshRathi).  
+Live: [https://watermark-studio-pro.streamlit.app/](https://watermark-studio-pro.streamlit.app/)
