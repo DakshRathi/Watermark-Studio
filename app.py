@@ -387,6 +387,6 @@ else:
 st.markdown("""
 <div style="text-align:center; margin-top:60px; padding:20px; color:#475569; font-size:0.8rem;">
     Made with ❤️ using Streamlit • 
-    <a href="https://github.com" target="_blank" style="color:#6C63FF; text-decoration:none;">View Source</a>
+    <a href="https://github.com/DakshRathi/Watermark-Studio" target="_blank" style="color:#6C63FF; text-decoration:none;">View Source</a>
 </div>
 """, unsafe_allow_html=True)
